@@ -83,11 +83,11 @@ class SmartHealthAgent(HealthAgent) :
             predict_diseases_scores[move] = self.simulated_spread_disease(disease,move)
 
 
-        optimal_move = []
+
         optimal_move.append(min(predict_diseases_scores,key = predict_diseases_scores.get))
 
 
-        print(optimal_move)
+
 
 
 
@@ -96,7 +96,7 @@ class SmartHealthAgent(HealthAgent) :
         #print("move to :",optimal_move,predict_diseases_scores[optimal_move])
 
 
-        return random.choice(optimal_move)
+        return optimal_move
 
 
 
