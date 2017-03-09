@@ -6,7 +6,6 @@
 """
 
 import random
-import operator
 
 class HealthAgent(object):
     """ A simple disease fighting agent. """
@@ -49,10 +48,8 @@ class HealthAgent(object):
 class SmartHealthAgent(HealthAgent) :
     """
     The solution is : assume the agent moves to a location in the list of valid moves and see the effect on the disease
-    scenario (add all disease score at each city together). Then choose the move with the lowest disease score (the most effective
+    scenario (add all disease score at each city together). Then choose the move with the lowest disease score (the most     effective
     way to avoid the disease spread).
-
-
     """
 
     def choose_move(self, location, valid_moves, disease, threshold, growth, spread):
@@ -60,40 +57,36 @@ class SmartHealthAgent(HealthAgent) :
         """
         choose a optimal location and return the location on the basis of the effect of the move on the following scenario
         """
-        # optimal_move = None
-        # predicted_disease_scenarios = {}
-        # for move in valid_moves :
-        #     predicted_diseases = self.simulated_spread_disease(disease,move,growth,threshold,spread)
-        #     total_disease = 0.0
-        #     for predicted_disease in predicted_diseases :
-        #         total_disease += predicted_diseases[predicted_disease]
-        #     predicted_disease_scenarios[move] = total_disease
-        #
-        # print("predicted_disease_scenarios",predicted_disease_scenarios)
-        #
-        # optimal_move = min(predicted_disease_scenarios,key = predicted_disease_scenarios.get)
 
+        """
+        Get the effect of all valid move (i.e. the total disease score after a assumed move)
+        stored in a dictionary : predicted_disease_scores {assumed_valid_move: the total disease score after this vald move}
+        """
         self.threshold = threshold
         self.growth = growth
         self.spread = spread
 
-        optimal_move = None
         predict_diseases_scores = {}
         for move in valid_moves :
-            predict_diseases_scores[move] = self.simulated_spread_disease(disease,move)
+                 predict_diseases_scores[move] = self.simulated_spread_disease(disease,move)
 
 
 
-        optimal_move = min(predict_diseases_scores,key = predict_diseases_scores.get)
+        """
+        When there are multiple minimum disease score existing (i.e. whenever the agent moves to any of those locations, the effect on the disease is the same), move the agent to large city (i.e. city with the most connection)
 
 
 
 
+        """
+        minimum_value = min(predict_diseases_scores.values())
+        minimum_keys = [k for k in predict_diseases_scores if predict_diseases_scores[k] == minimum_value]
 
+        connection_numbers = {}
+        for loc in minimum_keys :
+            connection_numbers[loc] = len(self.conn[loc])
 
-      #  disease = predict_diseases_scores[optimal_move]
-
-        #print("move to :",optimal_move,predict_diseases_scores[optimal_move])
+        optimal_move = max(connection_numbers,key = connection_numbers.get)
 
 
         return optimal_move
@@ -105,6 +98,9 @@ class SmartHealthAgent(HealthAgent) :
 
         """
         simulate the scenario , given the agent moves to "agent_location"
+        input "agent_location", return the toal disease score when the agent is moved to "agent_location"
+
+        (dictionary,str) -> float
         """
         disease_new_round = disease.copy()
         disease_new_round[agent_location] = 0.0
@@ -132,10 +128,6 @@ class SmartHealthAgent(HealthAgent) :
 
         for location in disease_new_round :
             total_disease += disease_new_round[location]
-
-        print("assumed move:", agent_location, disease_new_round,"disease_score",total_disease)
-
-
 
         return total_disease
 

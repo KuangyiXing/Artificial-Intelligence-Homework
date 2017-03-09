@@ -76,7 +76,7 @@ class DiseaseScenario :
         (DiseaseScenario) -> [str]
 
         """
-        valid_moves_locations = self.conn[self.location]
+        valid_moves_locations = self.conn[self.location].copy()
 
         valid_moves_locations.add(self.location)
 
@@ -92,7 +92,7 @@ class DiseaseScenario :
         if loc not in self.valid_moves():
             raise ValueError("{} is not a valid location".format(loc))
         else:
-            self.disease[loc] = 0
+            self.disease[loc] = 0.0
             self.location = loc
 
     def spread_disease(self):
@@ -102,18 +102,21 @@ class DiseaseScenario :
          Disease will not spread to a location where the agent is.
          (DiseaseScenario) -> None
         """
-
+        #print(self.disease)
         disease_new_round = self.disease.copy()
 
-        for location in self.locations:
-            d = self.disease[location]
+        for loc in self.locations:
+            d = self.disease[loc]
             additional_disease = d * self.growth
-            disease_new_round[location] += additional_disease
+            disease_new_round[loc] += additional_disease
 
             if d > self.threshold or d == self.threshold :
                 contribution_to_neighbours = d * self.spread
+                #print(contribution_to_neighbours)
 
-                for neighbour in self.conn[location]:
+                #print(loc, self.conn)
+                for neighbour in self.conn[loc]:
+
                     if self.location != neighbour:
                         disease_new_round[neighbour] = disease_new_round[neighbour] + contribution_to_neighbours
 
@@ -123,3 +126,10 @@ class DiseaseScenario :
         self.disease = disease_new_round
 
 
+#
+# s = DiseaseScenario()
+# s.read_scenario_file("exercise4_maps/scenario2.scn")
+# i = 0
+# while i < 100 :
+#     s.spread_disease()
+#     i += 1
