@@ -84,7 +84,7 @@ class SmartHealthAgent(HealthAgent) :
 
 
 
-        optimal_move.append(min(predict_diseases_scores,key = predict_diseases_scores.get))
+        optimal_move = min(predict_diseases_scores,key = predict_diseases_scores.get)
 
 
 
