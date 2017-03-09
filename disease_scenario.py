@@ -102,7 +102,6 @@ class DiseaseScenario :
          Disease will not spread to a location where the agent is.
          (DiseaseScenario) -> None
         """
-        #print(self.disease)
         disease_new_round = self.disease.copy()
 
         for loc in self.locations:
@@ -112,9 +111,8 @@ class DiseaseScenario :
 
             if d > self.threshold or d == self.threshold :
                 contribution_to_neighbours = d * self.spread
-                #print(contribution_to_neighbours)
 
-                #print(loc, self.conn)
+
                 for neighbour in self.conn[loc]:
 
                     if self.location != neighbour:
@@ -125,11 +123,3 @@ class DiseaseScenario :
 
         self.disease = disease_new_round
 
-
-#
-# s = DiseaseScenario()
-# s.read_scenario_file("exercise4_maps/scenario2.scn")
-# i = 0
-# while i < 100 :
-#     s.spread_disease()
-#     i += 1
