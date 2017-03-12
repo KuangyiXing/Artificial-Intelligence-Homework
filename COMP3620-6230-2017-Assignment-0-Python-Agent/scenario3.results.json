@@ -1,0 +1,505 @@
+{
+    "average_score": 35.0,
+    "runs": [
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        },
+        {
+            "final_disease": 0.0,
+            "last_step": 65,
+            "score": 35
+        }
+    ]
+}
